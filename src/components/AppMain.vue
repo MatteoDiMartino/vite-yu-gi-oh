@@ -18,6 +18,12 @@
                     <Cardlist></Cardlist>
                     <Cardlist></Cardlist>
                     <Cardlist></Cardlist>
+                    <Cardlist></Cardlist>
+                    <Cardlist></Cardlist>
+                    <Cardlist></Cardlist>
+                    <Cardlist></Cardlist>
+                    <Cardlist></Cardlist>
+
                 </div>
         </div>
     </main>
@@ -27,9 +33,9 @@
 
 .ms-main-bg {
     background-color: #D48F38;
-    flex-wrap: wrap;
     .ms-h {
         height: 88.9vh;
+        flex-wrap: wrap;
     }
 }
 
