@@ -14,8 +14,11 @@
     <main class="ms-main-bg">
         <div class="container">
             <div class="row">
-                <div class="ms-h">
+                <div class="ms-h d-flex justify-content-between">
                     <Cardlist></Cardlist>
+                    <Cardlist></Cardlist>
+                    <Cardlist></Cardlist>
+
                 </div>
             </div>
         </div>
