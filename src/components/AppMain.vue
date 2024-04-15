@@ -1,4 +1,5 @@
 <script>
+    import { store } from '../store.js';
     import Cardlist from './Cardlist.vue';
 
 
@@ -6,6 +7,11 @@
         name: 'AppMain',
         components: {
             Cardlist
+        },
+        data () {
+            return {
+                store
+            };
         }
     }
 </script>
