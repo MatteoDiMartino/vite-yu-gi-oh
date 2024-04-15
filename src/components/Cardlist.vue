@@ -8,11 +8,17 @@ export default {
 
 <template>
 
-<div class="d-flex">
+<div class="d-flex ms-card-container">
     <div class="my-3">
         <img src="https://qph.cf2.quoracdn.net/main-qimg-98732885e1731509a4ce78d853dd0173-pjlq" alt="img" class="ms-w-card">
         <h1>ciao</h1>
     </div>
+
+    <div class="my-3">
+        <img src="https://qph.cf2.quoracdn.net/main-qimg-98732885e1731509a4ce78d853dd0173-pjlq" alt="img" class="ms-w-card">
+        <h1>ciao</h1>
+    </div>
+    
 </div>
 
 
@@ -24,4 +30,7 @@ export default {
     width: 50%;
 }
 
+.ms-card-container {
+    flex-wrap: wrap;
+}
 </style>

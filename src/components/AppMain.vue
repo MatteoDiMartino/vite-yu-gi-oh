@@ -13,14 +13,12 @@
 <template>
     <main class="ms-main-bg">
         <div class="container">
-            <div class="row">
                 <div class="ms-h d-flex justify-content-between">
                     <Cardlist></Cardlist>
                     <Cardlist></Cardlist>
                     <Cardlist></Cardlist>
-
+                    <Cardlist></Cardlist>
                 </div>
-            </div>
         </div>
     </main>
 </template>
@@ -29,7 +27,7 @@
 
 .ms-main-bg {
     background-color: #D48F38;
-
+    flex-wrap: wrap;
     .ms-h {
         height: 88.9vh;
     }
