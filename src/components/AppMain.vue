@@ -13,7 +13,7 @@
 <template>
     <main class="ms-main-bg">
         <div class="container">
-                <div class="ms-h d-flex justify-content-between">
+                <div class="ms-h d-flex justify-content-center">
                     <Cardlist></Cardlist>
                     <Cardlist></Cardlist>
                     <Cardlist></Cardlist>
@@ -23,7 +23,9 @@
                     <Cardlist></Cardlist>
                     <Cardlist></Cardlist>
                     <Cardlist></Cardlist>
-
+                    <Cardlist></Cardlist>
+                    <Cardlist></Cardlist>
+                    <Cardlist></Cardlist>
                 </div>
         </div>
     </main>
@@ -34,7 +36,7 @@
 .ms-main-bg {
     background-color: #D48F38;
     .ms-h {
-        height: 88.9vh;
+        height: 100%;
         flex-wrap: wrap;
     }
 }
