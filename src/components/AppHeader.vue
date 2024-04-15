@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col py-3">
                 <img src="../assets/img/yugiohlogo.bmp" alt="logo" class="ms-w-logo">
-                <span>Yu-Gi-Oh</span>
+                <span>Yu-Gi-Oh | API</span>
             </div>
         </div>
     </div>
