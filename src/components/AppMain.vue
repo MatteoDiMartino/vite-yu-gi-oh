@@ -20,7 +20,7 @@
     <main class="ms-main-bg">
         <div class="container">
                 <div class="ms-h d-flex justify-content-center bg-white">
-                    <Cardlist></Cardlist>
+                    <Cardlist v-for="mscard in store.card" :key="mscard.id" :cardInfo="card"></Cardlist>
                 </div>
         </div>
     </main>
