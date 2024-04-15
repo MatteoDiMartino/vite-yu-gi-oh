@@ -13,7 +13,7 @@
 <template>
     <main class="ms-main-bg">
         <div class="container">
-                <div class="ms-h d-flex justify-content-center">
+                <div class="ms-h d-flex justify-content-center bg-white">
                     <Cardlist></Cardlist>
                     <Cardlist></Cardlist>
                     <Cardlist></Cardlist>
