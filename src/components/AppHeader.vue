@@ -8,7 +8,6 @@
 
 <template>
 
-    <h1>ciaaao</h1>
 
 </template>
 
