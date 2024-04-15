@@ -11,7 +11,10 @@ export default {
 <div class="d-flex ms-card-container">
     <div class="my-3 ms-bg-infocard">
         <img src="https://qph.cf2.quoracdn.net/main-qimg-98732885e1731509a4ce78d853dd0173-pjlq" alt="img" class="ms-w-card">
-        <h1>ciao</h1>
+        <div class="text-center py-2">
+            <h3>Name</h3>
+            <span>info</span>
+        </div>
     </div>    
 </div>
 
