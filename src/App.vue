@@ -16,8 +16,11 @@
     },
     methods: {
       getCardFromApi() {
-        
+
       }
+    },
+    mounted() {
+      this.getCardFromApi();
     }
   }
 </script>
