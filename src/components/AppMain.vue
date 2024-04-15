@@ -15,17 +15,6 @@
         <div class="container">
                 <div class="ms-h d-flex justify-content-center bg-white">
                     <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
-                    <Cardlist></Cardlist>
                 </div>
         </div>
     </main>
