@@ -21,7 +21,7 @@ export default {
 <style scoped lang="scss">
 
 .ms-w-card {
-    width: 15%;
+    width: 50%;
 }
 
 </style>
