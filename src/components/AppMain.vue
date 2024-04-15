@@ -1,6 +1,12 @@
 <script>
+    import Cardlist from './Cardlist.vue';
+
+
     export default {
-        name: 'AppMain'
+        name: 'AppMain',
+        components: {
+            Cardlist
+        }
     }
 </script>
 
@@ -8,7 +14,9 @@
     <main class="ms-main-bg">
         <div class="container">
             <div class="row">
-                <div class="ms-h"></div>
+                <div class="ms-h">
+                    <Cardlist></Cardlist>
+                </div>
             </div>
         </div>
     </main>
