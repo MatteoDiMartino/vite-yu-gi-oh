@@ -11,8 +11,8 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <img src="../assets/img/yugiohlogo.bmp" alt="logo" class="w-25">
+            <div class="col py-3">
+                <img src="../assets/img/yugiohlogo.bmp" alt="logo" class="ms-w-logo">
                 <span>Yu-Gi-Oh</span>
             </div>
         </div>
@@ -22,5 +22,9 @@
 </template>
 
 <style scoped lang="scss">
+
+.ms-w-logo {
+    width: 140px;
+}
 
 </style>
