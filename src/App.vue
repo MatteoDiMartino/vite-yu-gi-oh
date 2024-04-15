@@ -16,7 +16,7 @@
     },
     methods: {
       getCardFromApi() {
-
+        console.log('test')
       }
     },
     mounted() {
