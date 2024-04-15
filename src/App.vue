@@ -8,6 +8,16 @@
     components: {
       AppHeader,
       AppMain
+    },
+    data () {
+      return {
+        store
+      };
+    },
+    methods: {
+      getCardFromApi() {
+        
+      }
     }
   }
 </script>
