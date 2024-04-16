@@ -12,7 +12,7 @@ export default {
 <template>
 
 <div class="d-flex ms-card-container">
-    <div class="my-3 ms-bg-infocard">
+    <div class="my-3 ms-bg-infocard mx-2">
         <img :src="cardInfo.card_images[0].image_url_small" alt="img" class="ms-w-card">
         <div class="text-center py-2">
             <h6>{{ cardInfo.name }}</h6>
