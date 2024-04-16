@@ -20,10 +20,10 @@
     <main class="ms-main-bg">
         <div class="container">
                 <div class="ms-h d-flex justify-content-center bg-white">
-                    <div class="w-100 p-4">
-                        <div class="bg-black text-white px-3 py-4"></div>
+                    <div class="w-100 px-4 pt-4 pb-0">
+                        <div class="bg-black text-white px-3 pt-4 pb-0"></div>
                     </div>
-                    <Cardlist v-for="mscard in store.cards" :key="mscard.id" :cardInfo="mscard" class="mt-4"></Cardlist>
+                    <Cardlist v-for="mscard in store.cards" :key="mscard.id" :cardInfo="mscard" class="pt-0 mt-0"></Cardlist>
                 </div>
         </div>
     </main>
