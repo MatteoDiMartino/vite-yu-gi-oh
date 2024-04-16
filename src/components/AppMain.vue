@@ -19,6 +19,13 @@
 <template>
     <main class="ms-main-bg">
         <div class="container">
+
+            <select name="" id="" class="py-1 px-2 my-3">
+                <option value="">Alien</option>
+                <option value="">ciao</option>
+                <option value="">ciao</option>
+            </select>
+
                 <div class="ms-h d-flex justify-content-center bg-white">
                     <div class="w-100 px-4 pt-4 pb-0">
                         <div class="bg-black text-white px-3 pt-4 pb-0"></div>
