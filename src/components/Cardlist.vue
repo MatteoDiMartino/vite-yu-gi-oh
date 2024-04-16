@@ -2,7 +2,9 @@
 
 export default {
         name: 'Cardlist',
-
+        props: {
+            cardInfo: Object
+        }
     }
 
 </script>
@@ -11,10 +13,10 @@ export default {
 
 <div class="d-flex ms-card-container">
     <div class="my-3 ms-bg-infocard">
-        <img src="https://qph.cf2.quoracdn.net/main-qimg-98732885e1731509a4ce78d853dd0173-pjlq" alt="img" class="ms-w-card">
+        <img :src="cardInfo.card_images[0].image_url_small" alt="img" class="ms-w-card">
         <div class="text-center py-2">
-            <h3>Name</h3>
-            <span>info</span>
+            <h3>{{ cardInfo.name }}</h3>
+            <span>{{ cardInfo.archetype }}</span>
         </div>
     </div>    
 </div>
