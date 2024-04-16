@@ -28,7 +28,7 @@
 
                 <div class="ms-h d-flex justify-content-center bg-white">
                     <div class="w-100 px-4 pt-4 pb-0">
-                        <div class="bg-black text-white px-3 pt-4 pb-0"></div>
+                        <div class="bg-black text-white px-3 py-2">ciao</div>
                     </div>
                     <Cardlist v-for="mscard in store.cards" :key="mscard.id" :cardInfo="mscard" class="pt-0 mt-0"></Cardlist>
                 </div>
