@@ -1,12 +1,13 @@
 <script>
     import { store } from '../store.js';
     import Cardlist from './Cardlist.vue';
+    import SelectCom from './SelectCom.vue'
 
 
     export default {
         name: 'AppMain',
         components: {
-            Cardlist
+            Cardlist,
         },
         data () {
             return {
@@ -19,16 +20,11 @@
 <template>
     <main class="ms-main-bg">
         <div class="container">
-
-            <select name="" id="" class="py-1 px-2 my-3">
-                <option value="">Alien</option>
-                <option value="">ciao</option>
-                <option value="">ciao</option>
-            </select>
-
                 <div class="ms-h d-flex justify-content-center bg-white">
                     <div class="w-100 px-4 pt-4 pb-0">
-                        <div class="bg-black text-white px-3 py-2">ciao</div>
+                        <div class="bg-black text-white px-3 py-2">
+                            ciao
+                        </div>
                     </div>
                     <Cardlist v-for="mscard in store.cards" :key="mscard.id" :cardInfo="mscard" class="pt-0 mt-0"></Cardlist>
                 </div>
