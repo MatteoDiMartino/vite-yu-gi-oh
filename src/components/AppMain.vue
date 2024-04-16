@@ -18,7 +18,8 @@
 
 <template>
     <main class="ms-main-bg">
-        <div class="container ">
+        <div class="container">
+                <div class="bg-black text-white px-3 py-3">ciao</div>
                 <div class="ms-h d-flex justify-content-center bg-white">
                     <Cardlist v-for="mscard in store.cards" :key="mscard.id" :cardInfo="mscard" class="mt-4"></Cardlist>
                 </div>
