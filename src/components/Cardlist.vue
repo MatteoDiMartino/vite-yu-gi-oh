@@ -15,7 +15,7 @@ export default {
     <div class="my-3 ms-bg-infocard">
         <img :src="cardInfo.card_images[0].image_url_small" alt="img" class="ms-w-card">
         <div class="text-center py-2">
-            <h3>{{ cardInfo.name }}</h3>
+            <h6>{{ cardInfo.name }}</h6>
             <span>{{ cardInfo.archetype }}</span>
         </div>
     </div>    
