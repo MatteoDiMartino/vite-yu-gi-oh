@@ -2,9 +2,7 @@
 
 export default {
         name: 'Cardlist',
-        props: {
-            cardInfo: Object
-        }
+
     }
 
 </script>
